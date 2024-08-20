@@ -2,10 +2,20 @@ apiVersion: v1
 entries:
   cf_test:
   - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2024-08-19T08:41:34.725582051Z"
+    appVersion: 0.2.0
+    created: "2024-08-20T06:47:31.57070846Z"
     description: test helm chart
-    digest: f3adfb16616a3d5fc498fa953fa9b2874fd371104e28bd1ea851282c5aa04657
+    digest: db2d9286b1663942b3d4b6f019f118d48204e94b209370bc43db9330bde91628
+    name: cf_test
+    type: application
+    urls:
+    - cf_test-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-08-20T06:47:31.570332284Z"
+    description: test helm chart
+    digest: 047333a6266a3e5637114ccdb959d731fb2b22b43b0b65c22f234b373e6645c7
     name: cf_test
     type: application
     urls:
@@ -22,7 +32,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 2.10.18
-    created: "2024-08-19T08:41:34.729560791Z"
+    created: "2024-08-20T06:47:31.573823527Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -62,7 +72,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.27.0
-    created: "2024-08-19T08:41:34.737468862Z"
+    created: "2024-08-20T06:47:31.577033351Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -107,7 +117,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.5
-    created: "2024-08-19T08:41:57.583220492Z"
+    created: "2024-08-20T06:47:31.58780859Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -133,4 +143,4 @@ entries:
     urls:
     - redis-19.6.4.tgz
     version: 19.6.4
-generated: "2024-08-19T08:41:34.725124065Z"
+generated: "2024-08-20T06:47:31.569664681Z"
