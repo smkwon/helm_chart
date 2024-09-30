@@ -3,19 +3,29 @@ entries:
   cf_test:
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2024-09-23T07:53:52.971794416Z"
+    created: "2024-09-30T04:33:57.033427555Z"
     description: test helm chart
-    digest: aced814aa8003930d518104c9d5a11fada376d903ea6fe1e819b58cba4221c3d
+    digest: 3705f43f12be0b80258e1570e65713b860148b95d1ace1b3dd33a9cb5972fa75
     name: cf_test
     type: application
     urls:
     - cf_test-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2024-09-23T07:53:52.971552045Z"
+    appVersion: 0.2.0
+    created: "2024-09-30T04:33:57.033136216Z"
     description: test helm chart
-    digest: 047333a6266a3e5637114ccdb959d731fb2b22b43b0b65c22f234b373e6645c7
+    digest: 2c3d7c869522602cc40cc086aeb795e4135134f20ad139e9bb43c1e6873f03b8
+    name: cf_test
+    type: application
+    urls:
+    - cf_test-0.2.0-test.tgz
+    version: 0.2.0-test
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-09-30T04:33:57.032819937Z"
+    description: test helm chart
+    digest: fa6418e2d9a1ef32a53142e44dfcbecc05fd7af9e6f4eda81dd83135631303ee
     name: cf_test
     type: application
     urls:
@@ -32,7 +42,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 2.10.18
-    created: "2024-09-23T07:53:52.975313352Z"
+    created: "2024-09-30T04:33:57.0380795Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -72,7 +82,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.27.0
-    created: "2024-09-23T07:53:52.979123676Z"
+    created: "2024-09-30T04:33:57.041249016Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -117,7 +127,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.5
-    created: "2024-09-23T07:53:52.988605923Z"
+    created: "2024-09-30T04:33:57.050258516Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -143,4 +153,4 @@ entries:
     urls:
     - redis-19.6.4.tgz
     version: 19.6.4
-generated: "2024-09-23T07:53:52.970230722Z"
+generated: "2024-09-30T04:33:57.03210493Z"
